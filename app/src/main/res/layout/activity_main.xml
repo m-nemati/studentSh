@@ -2,17 +2,199 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mainback"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glhb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glhb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glhb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glhb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glhb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glvs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glve1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glvcenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+    <!-- ********* Image Views ******************* -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/glve1"
+        app:layout_constraintStart_toStartOf="@+id/glvs1"
+        app:layout_constraintTop_toTopOf="@+id/glhb2"
+        app:srcCompat="@drawable/solymani" />
+    <!-- ********* Circle Image Views ******************* -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/glvcenter"
+        app:layout_constraintStart_toStartOf="@+id/glvs1"
+        app:layout_constraintTop_toTopOf="@+id/glhb3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image2"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/glve1"
+        app:layout_constraintStart_toStartOf="@+id/glvcenter"
+        app:layout_constraintTop_toTopOf="@+id/glhb3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/glvcenter"
+        app:layout_constraintStart_toStartOf="@+id/glvs1"
+        app:layout_constraintTop_toTopOf="@+id/glhb4" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image4"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/glve1"
+        app:layout_constraintStart_toStartOf="@+id/glvcenter"
+        app:layout_constraintTop_toTopOf="@+id/glhb4" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image5"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/glvcenter"
+        app:layout_constraintStart_toStartOf="@+id/glvs1"
+        app:layout_constraintTop_toTopOf="@+id/glhb5" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image6"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/glve1"
+        app:layout_constraintStart_toStartOf="@+id/glvcenter"
+        app:layout_constraintTop_toTopOf="@+id/glhb5" />
+
+
+    <!-- ******************* Buttons *********************-->
+    <Button
+        android:id="@+id/btn_sh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sh1"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <Button
+        android:id="@+id/btn_sh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sh2"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image2"
+        app:layout_constraintStart_toStartOf="@+id/profile_image2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image2" />
+
+    <Button
+        android:id="@+id/btn_sh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sh3"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image3"
+        app:layout_constraintStart_toStartOf="@+id/profile_image3"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image3" />
+
+    <Button
+        android:id="@+id/btn_sh4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sh4"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image4"
+        app:layout_constraintStart_toStartOf="@+id/profile_image4"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image4" />
+
+    <Button
+        android:id="@+id/btn_sh5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sh5"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image5"
+        app:layout_constraintStart_toStartOf="@+id/profile_image5"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image5" />
+
+    <Button
+        android:id="@+id/btn_sh6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sh6"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image6"
+        app:layout_constraintStart_toStartOf="@+id/profile_image6"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image6" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
