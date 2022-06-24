@@ -68,5 +68,18 @@
         app:layout_constraintStart_toStartOf="@+id/txt_title1"
         app:layout_constraintTop_toBottomOf="@+id/txt_title1" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="@dimen/margin_high"
+        android:layout_marginEnd="@dimen/margin_high"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/baner"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/glV2"
+        app:layout_constraintStart_toStartOf="@+id/glV1"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

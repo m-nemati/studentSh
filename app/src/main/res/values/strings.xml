@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">شهدای دانش آموزشی</string>
-    <string name="title1">شهدای دانش آموزی</string>
+    <string name="app_name">شهدای دانش آموزش</string>
+    <string name="title1">شهدای دانش آموز</string>
     <string name="title2">منطقه رحمت آباد و بلوکات</string>
 
-    <string name="btn_sh1">شهید1</string>
-    <string name="btn_sh2">شهید2</string>
-    <string name="btn_sh3">شهید3</string>
-    <string name="btn_sh4">شهید4</string>
-    <string name="btn_sh5">شهید5</string>
-    <string name="btn_sh6">شهید6</string>
+    <string name="btn_sh1">شهید علی باروتکوبیان</string>
+    <string name="btn_sh2">شهید منش صادقپور</string>
+    <string name="btn_sh3">شهید سید صادق تیموری</string>
+    <string name="btn_sh4">شهید عین اله گلابی</string>
+    <string name="btn_sh5">شهید نوید خلیلی</string>
+    <string name="btn_sh6">شهید داراب رضایی</string>
 
 </resources>
