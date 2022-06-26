@@ -10,9 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shahid3768">
         <activity
+            android:name=".RezaeiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KhaliliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GolabiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeymoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SadeghpourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BarotkobianActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,8 +39,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

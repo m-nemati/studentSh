@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/bgshahidimage"
+    tools:context=".BarotkobianActivity">
+
+    <!-- ********** Guide Lines **************** -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <!-- ********** Profile Image **************** -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bgi"
+        app:civ_border_color="@color/light_green_700"
+        app:civ_border_width="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v1"
+        app:layout_constraintTop_toTopOf="@+id/h1" />
+
+    <TextView
+        android:id="@+id/txt_shadi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="@string/btn_sh1"
+        android:textColor="@color/red_600"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image"
+        app:layout_constraintStart_toStartOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/txt_date_shahid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_date_shahid"
+        android:textSize="18sp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/margin_high"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_shadi_text" />
+
+    <TextView
+        android:id="@+id/txt_location_shahid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="@string/txt_location_shahid"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/margin_high"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/v3"
+        app:layout_constraintStart_toStartOf="@+id/v1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_shadi_text" />
+
+    <TextView
+        android:id="@+id/txt_date_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_sh1"
+        android:fontFamily="@font/font"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/margin_low"
+        android:textColor="@color/blue_400"
+        app:layout_constraintEnd_toEndOf="@+id/txt_date_shahid"
+        app:layout_constraintStart_toStartOf="@+id/txt_date_shahid"
+        app:layout_constraintTop_toBottomOf="@+id/txt_date_shahid" />
+
+    <TextView
+        android:id="@+id/txt_location_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:text="@string/location_sh1"
+        android:textColor="@color/blue_400"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/margin_low"
+        app:layout_constraintEnd_toEndOf="@+id/txt_location_shahid"
+        app:layout_constraintStart_toStartOf="@+id/txt_location_shahid"
+        app:layout_constraintTop_toBottomOf="@+id/txt_location_shahid" />
+
+    <Button
+        android:id="@+id/button"
+        app:backgroundTint="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_recommendation"
+        android:fontFamily="@font/font"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/yellow_200"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v3"
+        app:layout_constraintTop_toTopOf="@+id/h3" />
+
+    <Button
+        android:id="@+id/button2"
+        app:backgroundTint="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_life_story"
+        android:fontFamily="@font/font"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@color/yellow_200"
+        app:layout_constraintEnd_toStartOf="@+id/v3"
+        app:layout_constraintStart_toStartOf="@+id/v1"
+        app:layout_constraintTop_toTopOf="@+id/h3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

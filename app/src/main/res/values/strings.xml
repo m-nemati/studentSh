@@ -10,4 +10,25 @@
     <string name="btn_sh5">شهید نوید خلیلی</string>
     <string name="btn_sh6">شهید داراب رضایی</string>
 
+    <string name="txt_sub">شهدای سرافزار دانش آموز رحمت آباد و بلوکات</string>
+    <string name="txt_date_shahid">تاریخ شهادت:</string>
+    <string name="txt_location_shahid">محل شهادت:</string>
+
+    <string name="date_sh1">1364/11/20</string>
+    <string name="date_sh2">1364/11/20</string>
+    <string name="date_sh3">1364/11/20</string>
+    <string name="date_sh4">1364/11/20</string>
+    <string name="date_sh5">1364/11/20</string>
+    <string name="date_sh6">1364/11/20</string>
+
+    <string name="location_sh1">شلمچه</string>
+    <string name="location_sh2">شلمچه</string>
+    <string name="location_sh3">شلمچه</string>
+    <string name="location_sh4">شلمچه</string>
+    <string name="location_sh5">شلمچه</string>
+    <string name="location_sh6">شلمچه</string>
+
+    <string name="btn_recommendation">وصیت نامه</string>
+    <string name="btn_life_story">زندگی نامه</string>
+
 </resources>
