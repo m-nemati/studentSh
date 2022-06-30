@@ -10,7 +10,7 @@
     <string name="btn_sh5">شهید نوید خلیلی</string>
     <string name="btn_sh6">شهید داراب رضایی</string>
 
-    <string name="txt_sub">شهدای سرافزار دانش آموز رحمت آباد و بلوکات</string>
+    <string name="txt_sub">شهدای سرافراز دانش آموز رحمت آباد و بلوکات</string>
     <string name="txt_date_shahid">تاریخ شهادت:</string>
     <string name="txt_location_shahid">محل شهادت:</string>
 
@@ -30,5 +30,8 @@
 
     <string name="btn_recommendation">وصیت نامه</string>
     <string name="btn_life_story">زندگی نامه</string>
+
+    <string name="menu_about_me">درباره ما</string>
+    <string name="exit_app">خروج از برنامه</string>
 
 </resources>

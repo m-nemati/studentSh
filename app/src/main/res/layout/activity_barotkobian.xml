@@ -68,7 +68,7 @@
         android:fontFamily="@font/font"
         android:text="@string/btn_sh1"
         android:textColor="@color/red_600"
-        android:textSize="26sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image"
         app:layout_constraintStart_toStartOf="@+id/profile_image"
         app:layout_constraintTop_toBottomOf="@+id/profile_image" />
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_date_shahid"
-        android:textSize="18sp"
+        android:textSize="21sp"
         android:fontFamily="@font/font"
         android:textColor="@color/black"
         android:layout_marginTop="@dimen/margin_high"
@@ -94,7 +94,7 @@
         android:text="@string/txt_location_shahid"
         android:textColor="@color/black"
         android:layout_marginTop="@dimen/margin_high"
-        android:textSize="18sp"
+        android:textSize="21sp"
         app:layout_constraintEnd_toStartOf="@+id/v3"
         app:layout_constraintStart_toStartOf="@+id/v1"
         app:layout_constraintTop_toBottomOf="@+id/txt_shadi_text" />
@@ -105,7 +105,7 @@
         android:layout_height="wrap_content"
         android:text="@string/date_sh1"
         android:fontFamily="@font/font"
-        android:textSize="18sp"
+        android:textSize="21sp"
         android:layout_marginTop="@dimen/margin_low"
         android:textColor="@color/blue_400"
         app:layout_constraintEnd_toEndOf="@+id/txt_date_shahid"
@@ -119,14 +119,14 @@
         android:fontFamily="@font/font"
         android:text="@string/location_sh1"
         android:textColor="@color/blue_400"
-        android:textSize="18sp"
+        android:textSize="21sp"
         android:layout_marginTop="@dimen/margin_low"
         app:layout_constraintEnd_toEndOf="@+id/txt_location_shahid"
         app:layout_constraintStart_toStartOf="@+id/txt_location_shahid"
         app:layout_constraintTop_toBottomOf="@+id/txt_location_shahid" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_recomend_sha1"
         app:backgroundTint="@null"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
         app:layout_constraintTop_toTopOf="@+id/h3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_life_sha1"
         app:backgroundTint="@null"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
